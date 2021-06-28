@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .darkControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(34, 24, 124);
+  }
+  
+  .darkControl>button {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .btn-darkMode {
+    width: 5vw;
+    height: 5vh;
+  }
+  
+  .appTittle {
+    font-size: 3em;
+    margin-right: 13em;
+    color: white;
+  }
+  
+  .btn-cont-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 85vh;
+  }
+  
+  .btnFood {
+    width: 20vw;
+    height: 35vh;
+    margin: 10px;
+    border-radius: 5%;
+    border: black solid;
+  }
+  
+  .button {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .cnt-text {
+    font-size: 2em;
+  }
+  
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 85vh;
+  }
+  
+  .darkmode {
+    color: white;
+  }
+  
+  .darkModeContainer {
+    background-color: rgba(36, 33, 33, 0.781);
+  }
+  
+  .darkTittleBackground {
+    background-color: rgb(13, 9, 48);
+  }
+  
+  .darkColor {
+    background-color: rgba(32, 32, 32, 0.74);
+  }
+  
+  .darkBackground {
+    background-color: rgba(32, 32, 32, 0.74);
+  }
+  
+  .lightColor {
+    background-color: yellow;
+  }
+  
+  .tittleBackground {
+    background-color: rgb(34, 24, 124);
+  }
+  
+  @media screen and (max-width: 950px) {
+    .btn-cont-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 85vh;
+      width: 100vw;
+    }
+  
+    .darkControl {
+      height: 15vh;
+    }
+  
+    .counter-container {
+      order: -1;
+      height: 22.5vh;
+    }
+  
+    .button-container {
+      width: 80vw;
+      height: 62.5;
+    }
+  
+    .btnFood {
+      height: 25vh;
+      width: 35vw;
+    }
+  
+    .appTittle {
+      font-size: 1.5em;
+      margin-right: 1.7em;
+      color: white;
+    }
+  }
+  
